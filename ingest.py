@@ -30,7 +30,7 @@ from constants import CHROMA_SETTINGS
 load_dotenv()
 
 
-# Load environment variables
+# Load environment variables
 persist_directory = os.environ.get('PERSIST_DIRECTORY')
 source_directory = os.environ.get('SOURCE_DIRECTORY', 'source_documents')
 embeddings_model_name = os.environ.get('EMBEDDINGS_MODEL_NAME')
